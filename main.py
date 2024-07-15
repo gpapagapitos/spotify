@@ -1,6 +1,6 @@
 import os
 from flask import Flask, redirect, request, jsonify, session
-from datetime import datetime, timedelta
+from datetime import datetime
 from os.path import join, dirname
 from dotenv import load_dotenv
 import urllib.parse
